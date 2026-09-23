@@ -1,0 +1,22 @@
+=== ServicioReservasTest ===
+  [OK]   correoInvalidoNoProcesaReserva
+Guardando reserva R-NORMAL
+Correo enviado a ana@uees.edu.ec
+  [OK]   dosHorasExactasPermitenProcesar
+Guardando reserva R-NORMAL
+Correo enviado a ana@uees.edu.ec
+  [OK]   normalActualmenteRetornaCuarenta
+  [OK]   periodoConFinAnteriorNoProcesa
+  [OK]   reservaNulaRetornaCero
+  [OK]   unaHoraNoPermiteProcesar
+Guardando reserva R-VIP
+Correo enviado a vip@uees.edu.ec
+  [FAIL] vipActualmenteRetornaTreintaYCuatro -> java.lang.AssertionError: assertAll fallo (1): esperado: <34.0> pero fue: <32.0> (delta 0.001) | 
+
+=== DineroTest ===
+  [OK]   dineroNegativoLanzaExcepcion
+
+-----------------------------------------------
+Pruebas ejecutadas: 8, correctas: 7, fallidas: 1
+RESULTADO: SUITE ROJA
+  - ServicioReservasTest.vipActualmenteRetornaTreintaYCuatro -> java.lang.AssertionError: assertAll fallo (1): esperado: <34.0> pero fue: <32.0> (delta 0.001) | 
